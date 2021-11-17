@@ -26,6 +26,9 @@ fall=('oct','nov','dec')
 
 user_input_month = input("Enter a month in a three letter abbreviation[jan,feb,mar] ").lower()
 user_input_day = int(input("enter a day in the month "))
+
+
+
 day=user_input_day
 if user_input_month in winter:
   if user_input_month == 'mar' and user_input_day>19:
